@@ -7,30 +7,29 @@ Mastodon | Rail de cake instance
 
 #### About this repository
 This repository will contain the **client app** of the *Rail de cake* Mastodon instance who is hosted at [masto.raildecake.fr](masto.raildecake.fr).
-The purpose of this repo is to list and give the source code of the customized rail de cake Mastodon app. 
+The purpose of this repo is to list and give the source code of the customized Rail de Cake Mastodon app. 
 
 ### Added Features 
 #### Local Timeline :
-- The **Community Timeline** who is the instance timeline is changed to **The Cake Community**
-- The default icon who represent a bunch of peoples is now a **cake** (the birthday-cake of font-awesome)
-- The 4 column take all the width of the screen now 
+- Renamed the **Community Timeline** to **The Cake Community**
+- Change the default icon (a bunch of peoples) by a **cake** (the birthday-cake of font-awesome)
+- The 4 columns take all the width of the screen now 
 
 ### Install 
-1. Connect to the ssh 
-2. Git clone next mastodon live folder
-3. Copy the content of the cloned repo to the live folder with **cp** (will overwrite files)
-4. Launch the precompile command for recompile assets
-
+1. Login as mastodon
+2. Git clone the project
+3. Make a backup of the live project just in case. Copy the content of the cloned repo into the live folder with **cp**
+4. cd into the live directory and precompile assets with :
 ```
 RAILS_ENV=production bundle exec rails assets:precompile
 ```
-5. With a admin account restart the web service 
+5. Restart the mastodon-web service with a root capable account :
 ```
 sudo systemctl restart mastodon-web.service
 ```
 
 
 ### Contact 
-If you have any questions feel free to open a [issue](https://github.com/shug0/raildecake-mastodon/issues) or to **Toot Me** here : [shug0@masto.raildecake.fr](https://masto.raildecake.fr/@shug0).
+If you have any questions feel free to open an [issue](https://github.com/shug0/raildecake-mastodon/issues) or to **Toot** me : [shug0@masto.raildecake.fr](https://masto.raildecake.fr/@shug0).
 
-Have nice toot friend of the fediverse !
+See you in the fediverse friends ;-)
