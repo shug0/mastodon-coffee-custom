@@ -9,11 +9,16 @@ Mastodon | Rail de cake instance
 This repository will contain the **client app** of the *Rail de cake* Mastodon instance who is hosted at [masto.raildecake.fr](masto.raildecake.fr).
 The purpose of this repo is to list and give the source code of the customized Rail de Cake Mastodon app. 
 
-### Added Features 
+### Custom Features 
+
 #### Local Timeline :
-- Renamed the **Community Timeline** to **The Cake Community**
-- Change the default icon (a bunch of peoples) by a **cake** (the birthday-cake of font-awesome)
-- The 4 columns take all the width of the screen now 
+- [X] Renamed the **Community Timeline** to **The Cake Community**
+- [X] Change the default icon (a bunch of peoples) by a **cake** (the birthday-cake of font-awesome)
+- [X] The 4 columns take all the width of the screen now 
+
+#### Styles :
+- [ ] Add a color to Direct Toot (DM) for better vizualisation of the DM and normal toots 
+
 
 ### Install 
 1. Login as mastodon
