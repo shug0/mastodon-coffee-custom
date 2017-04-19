@@ -83,7 +83,7 @@ const CommunityTimeline = React.createClass({
     const { intl, hasUnread } = this.props;
 
     return (
-      <Column icon='birthday-cake' active={hasUnread} heading={intl.formatMessage(messages.title)}>
+      <Column icon='paw' active={hasUnread} heading={intl.formatMessage(messages.title)}>
         <ColumnBackButtonSlim />
         <StatusListContainer type='community' emptyMessage={<FormattedMessage id='empty_column.community' defaultMessage='The local timeline is empty. Write something publicly to get the ball rolling!' />} />
       </Column>
