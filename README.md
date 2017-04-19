@@ -1,4 +1,4 @@
-Mastodon | Rail de cake instance
+Mastodon | Niu.moe
 ========
 
 ### About 
@@ -6,15 +6,13 @@ Mastodon | Rail de cake instance
 [Github of the Mastodon project.](https://github.com/tootsuite/mastodon)
 
 #### About this repository
-This repository will contain the **client app** of the *Rail de cake* Mastodon instance who is hosted at [masto.raildecake.fr](masto.raildecake.fr).
+This repository will contain the **client app** of the *Niu.moe* Mastodon instance who is hosted at [niu.moe](niu.moe).
 The purpose of this repo is to list and give the source code of the customized Rail de Cake Mastodon app. 
 
 ### Custom Features 
 
 #### Local Timeline :
-- [X] Renamed the **Community Timeline** to **The Cake Community**
-- [X] Change the default icon (a bunch of peoples) by a **cake** (the birthday-cake of font-awesome)
-- [X] The 4 columns take all the width of the screen now 
+WIP
 
 #### Styles :
 - [ ] Add a color to Direct Toot (DM) for better vizualisation of the DM and normal toots 
@@ -32,7 +30,6 @@ RAILS_ENV=production bundle exec rails assets:precompile
 ```
 sudo systemctl restart mastodon-web.service
 ```
-
 
 ### Contact 
 If you have any questions feel free to open an [issue](https://github.com/shug0/raildecake-mastodon/issues) or to **Toot** me : [shug0@masto.raildecake.fr](https://masto.raildecake.fr/@shug0).
